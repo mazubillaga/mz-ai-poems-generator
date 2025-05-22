@@ -7,42 +7,45 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to the English Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          auotfocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/mazubillaga" target="_blank"
-        >Miren Zubillaga</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/mazubillaga/mz-ai-poems-generator"
-        target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://mz-ai-poems-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to the Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            auotfocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/mazubillaga" target="_blank"
+          >Miren Zubillaga</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/mazubillaga/mz-ai-poems-generator"
+          target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://mz-ai-poems-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/java.js"></script>
   </body>
 </html>
