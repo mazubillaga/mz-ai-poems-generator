@@ -7,14 +7,14 @@ body {
   max-width: 600px;
 }
 a {
-  color: #022259;
+  color: #3c0266;
 }
 h1 {
   text-align: center;
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #022259;
+  color: #3c0266;
 }
 header {
   margin-bottom: 30px;
@@ -33,26 +33,30 @@ form {
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 30px;
   line-height: 20px;
-  color: #022259;
+  color: #3c0266;
 }
 .submit-button {
   margin-left: 10px;
-  background: #022259;
+  background: #3c0266;
   color: white;
   border: none;
   width: 150px;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 30px;
   padding: 14px 24px;
+}
+.submit-button:hover {
+  background: #c3efbd;
+  color: #3c0266;
 }
 .poem {
   font-size: 16px;
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #022259;
+  border-left: 3px solid #3c0266;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
   border-radius: 10px;
 }
